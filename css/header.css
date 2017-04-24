@@ -1,0 +1,27 @@
+header {
+    font-family: 'futura-pt-demi', sans-serif;
+    background: transparent; /* Колір фону стрінки */
+    color: #383a3a;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.nav>li {
+    padding: 15px 0;
+}
+
+.nav>li a {
+    padding: 20px 40px;
+}
+
+.navbar-default .nav>li a:hover {
+    border-bottom: 1px solid #ff887b;
+    color: #ff887b;
+}

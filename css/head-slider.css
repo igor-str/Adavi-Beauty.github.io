@@ -1,0 +1,16 @@
+.head-slider-img {
+    display: flex;
+    justify-content: center;
+}
+
+.head-slider-name {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.head-slider-decs {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}

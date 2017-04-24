@@ -1,0 +1,104 @@
+@import "header.css";
+@import "head-slider.css";
+@import "main.css";
+@import "footer.css";
+
+@font-face {
+    font-family: futura-pt-book;
+    src: url(../fonts/FuturaPTBook.otf);
+}
+@font-face {
+    font-family: futura-pt-bold;
+    src: url(../fonts/FuturaPTBold.otf);
+}
+@font-face {
+    font-family: futura-pt-demi;
+    src: url(../fonts/FuturaPTDemi.otf);
+}
+@font-face {
+    font-family: kepler-std;
+    src: url(../fonts/Kepler-Std_26214.ttf);
+}
+@font-face {
+    font-family: kepler-std-bold;
+    src: url(../fonts/KeplerStd-Bold.otf);
+}
+
+
+html {
+    font-family: 'futura-pt-book', sans-serif;
+    background: #ffffff; /* Колір фону стрінки */
+}
+
+body {
+    min-width: 320px; /* !!! Для того, щоб не було горизонтального скролу */
+}
+
+.futura-pt-book {
+    font-family: 'futura-pt-book', sans-serif;
+}
+
+.futura-pt-bold {
+    font-family: 'futura-pt-bold', sans-serif;
+}
+
+.futura-pt-demi {
+    font-family: 'futura-pt-demi', sans-serif;
+}
+
+.kepler-std {
+    font-family: 'kepler-std', sans-serif;
+}
+
+.kepler-std-bold {
+    font-family: 'kepler-std-boldi', sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+.for-background { /* для фону першого скролу на всю ширину вікна */
+    background-image: url("bg-image/bg-flofer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.for-background:after { /* для фону першого скролу на всю ширину вікна */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("bg-image/bg-flofer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+.for-background-main {
+    background-image: url("bg-image/bg-Adavi-Beauty.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 100vh;
+}
+
+.for-background:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    background-color: #ffd0cc;
+    z-index: 0;
+    transform: skew(-45deg);
+}
