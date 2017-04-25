@@ -36,13 +36,23 @@
 }
 
 .product-1 {
-    background: url("bg-image/frame-for-product-1.png") no-repeat top;
+    background: url("bg-image/frame-for-product-1-1.png") no-repeat top;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 410px;
-    width: 321px;
-    border: solid 2px red;
+    width: 350px;
+    border: solid 1px red;
+}
+
+.product-2 {
+    background: url("bg-image/frame-for-product-2-1.png") no-repeat top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 410px;
+    width: 350px;
+    border: solid 1px red;
 }
 
 .photo-product img {

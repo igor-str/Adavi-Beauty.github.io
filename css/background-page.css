@@ -1,0 +1,42 @@
+/* для фону першого скролу на всю ширину вікна */
+.for-background { /* для фону першого скролу на всю ширину вікна */
+    background-image: url("bg-image/bg-flofer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.for-background:after { /* для фону першого скролу на всю ширину вікна */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("bg-image/bg-flofer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+.for-background-main {
+    background-image: url("bg-image/bg-Adavi-Beauty.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 100vh;
+}
+
+.for-background:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    background-color: #ffd0cc;
+    z-index: 0;
+    transform: skew(-45deg);
+}

@@ -7,6 +7,8 @@ header {
 .navbar-default {
     background-color: transparent;
     border: none;
+    position: fixed;
+    z-index: 100;
 }
 
 .navbar {
@@ -19,9 +21,10 @@ header {
 
 .nav>li a {
     padding: 20px 40px;
+    text-transform: uppercase;
 }
 
-.navbar-default .nav>li a:hover {
+.navbar-default .nav>li a:active {
     border-bottom: 1px solid #ff887b;
     color: #ff887b;
 }

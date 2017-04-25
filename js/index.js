@@ -23,5 +23,29 @@ $(document).ready(function(){
         }
     });
 
+    $(".subscribe-newsletter").validate({
+        rules: {
+            'subject': {
+                required: true,
+                minlength: 1
+            },
+            'email-address': {
+                required: true,
+                minlength: 4,
+                email: true
+            }
+        },
+        messages: {
+            'subject': {
+                required: "Заповніть це поле",
+                minlength: 1
+            },
+            'email-address': {
+                required: "Введіть коректну адресу",
+                email: "Введіть коректну адресу"
+            }
+        }
+    });
+
 
 });

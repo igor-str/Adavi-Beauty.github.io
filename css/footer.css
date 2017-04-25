@@ -61,7 +61,7 @@
     content: '';
 }
 .facebook {
-    background: url("bg-image/instagram.png") no-repeat center;
+    background: url("bg-image/facebook.png") no-repeat center;
     width: 20px;
     height: 19px;
     padding-right: 50px;
@@ -69,16 +69,16 @@
     content: '';
 }
 .youtube {
-    background: url("bg-image/instagram.png") no-repeat center;
-    width: 20px;
+    background: url("bg-image/youtube.png") no-repeat center;
+    width: 19px;
     height: 19px;
     padding-right: 50px;
     display: inline-block;
     content: '';
 }
 .google-plus {
-    background: url("bg-image/instagram.png") no-repeat center;
-    width: 20px;
+    background: url("bg-image/googl.png") no-repeat center;
+    width: 19px;
     height: 19px;
     padding-right: 50px;
     display: inline-block;
