@@ -32,7 +32,9 @@ html {
 
 body {
     min-width: 320px; /* !!! Для того, щоб не було горизонтального скролу */
+    max-width: 1170px;
 }
+
 
 .futura-pt-book {
     font-family: 'futura-pt-book', sans-serif;

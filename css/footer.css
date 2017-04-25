@@ -6,3 +6,81 @@
 #scrollup{
     margin-bottom: 19.53vh;
 }
+
+.footer-menu {
+    list-style: none;
+    padding: 6.6vh 0;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.footer-menu a {
+    color: #383a3a;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: #ffb1aa;
+}
+
+.footer-menu li {
+    padding: 10px;
+}
+
+.wrapper-page-foot {
+    background-color: #f7fafb;
+    padding: 25px 0;
+}
+
+.box-for-foot-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights-reserved {
+    color: #2c2c2c;
+    font-size: 15px;
+}
+
+.social-networks { /* для іконок соціальних мереж */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.instagram {
+    background: url("bg-image/instagram.png") no-repeat center;
+    width: 20px;
+    height: 19px;
+    padding-right: 50px;
+    display: inline-block;
+    content: '';
+}
+.facebook {
+    background: url("bg-image/instagram.png") no-repeat center;
+    width: 20px;
+    height: 19px;
+    padding-right: 50px;
+    display: inline-block;
+    content: '';
+}
+.youtube {
+    background: url("bg-image/instagram.png") no-repeat center;
+    width: 20px;
+    height: 19px;
+    padding-right: 50px;
+    display: inline-block;
+    content: '';
+}
+.google-plus {
+    background: url("bg-image/instagram.png") no-repeat center;
+    width: 20px;
+    height: 19px;
+    padding-right: 50px;
+    display: inline-block;
+    content: '';
+}
