@@ -1,4 +1,4 @@
-@import "background-page";
+@import "background-page.css";
 @import "header.css";
 @import "head-slider.css";
 @import "main.css";
@@ -33,7 +33,7 @@ html {
 
 body {
     min-width: 320px; /* !!! Для того, щоб не було горизонтального скролу */
-    max-width: 1170px;
+
 }
 
 
@@ -68,14 +68,14 @@ body {
     background-image: url("bg-image/bg-flofer.png");
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .for-background-main {
     background-image: url("bg-image/bg-Adavi-Beauty.png");
     background-repeat: no-repeat;
     background-position: top;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 }

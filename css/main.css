@@ -3,9 +3,9 @@
     text-transform: uppercase;
     font-size: 44px;
     font-weight: bold;
-    line-height: 80px;
     padding: 30px 0;
     background: url("bg-image/line-to-about-us.png") no-repeat bottom;
+    margin: 10vh 0 0 0;
 }
 
 .about-us-desc {
@@ -26,9 +26,9 @@
     text-transform: uppercase;
     font-size: 44px;
     font-weight: bold;
-    line-height: 80px;
     padding: 30px 0;
     background: url("bg-image/line-to-new-products.png") no-repeat bottom;
+    margin: 26vh 0 0 0;
 }
 
 .product-item {
@@ -42,7 +42,7 @@
     align-items: center;
     height: 410px;
     width: 350px;
-    border: solid 1px red;
+
 }
 
 .product-2 {
@@ -52,7 +52,6 @@
     align-items: center;
     height: 410px;
     width: 350px;
-    border: solid 1px red;
 }
 
 .photo-product img {
@@ -200,11 +199,25 @@
     line-height: 80px;
     padding-bottom: 30px;
     background: url("bg-image/line-to-new-products.png") no-repeat bottom;
-    margin-top: 25vh;
+    margin: 25vh 0 11vh 0;
 }
 
-.image-items:nth-child(2) {
-    top: 200px;
+.wrapper-image-items-2 { /* --- для позиціонування блоків блогу --- */
+    position: relative;
+}
+
+.wrapper-image-items-2 >.image-items {
+    position: relative;
+    top: -200px;
+}
+
+.wrapper-image-items-3 { /* --- для позиціонування блоків блогу --- */
+    position: relative;
+}
+
+.wrapper-image-items-3 >.image-items {
+    position: relative;
+    top: -140px;
 }
 
 .image-article {
