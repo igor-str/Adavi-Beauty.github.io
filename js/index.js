@@ -47,5 +47,13 @@ $(document).ready(function(){
         }
     });
 
+    // при натиску на кнопку scrollup
+    $('#scrollup').click(function() {
+        // переміститись до верхньої частини html та body
+        $("html, body").animate({
+            scrollTop:0
+        },1000);
+    })
+
 
 });

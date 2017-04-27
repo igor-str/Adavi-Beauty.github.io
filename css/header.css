@@ -2,6 +2,13 @@ header {
     font-family: 'futura-pt-demi', sans-serif;
     background: transparent; /* Колір фону стрінки */
     color: #383a3a;
+    width: 100%;
+}
+
+.page-head {
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(256, 256, 256, 0.8);
 }
 
 .header-navigation {
@@ -55,4 +62,20 @@ header {
     background: url("bg-image/header-bag.png") no-repeat center;
     width: 15px;
     height: 19px;
+}
+
+
+.order-count{
+    width: 18px;
+    height: 18px;
+    color: #232323;
+    font-size: 12px;
+    background-color: #ff887b;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    position: relative;
+    bottom: -7px;
+    right: -7px;
 }

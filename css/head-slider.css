@@ -14,3 +14,7 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+.owl-carousel {
+    margin-top: 26vh;
+}
