@@ -89,4 +89,8 @@
         font-size: 12px;
     }
 
+    .box-for-foot-content {
+        flex-direction: column;
+    }
+
 }
