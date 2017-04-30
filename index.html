@@ -12,36 +12,49 @@
 <body>
     <div class="for-background">
         <header class="page-head">
-            <div class="container">
-                <div class="row">
-                    <nav class="header-navigation">
-                        <div class="wrapper-logo-site col-lg-2">
-                            <a class="logo" href="#">
-                                <img src="images/logo-Adavi-Beauty.png" alt="Adavi Beauty" width="170" height="56">
-                            </a>
-                        </div>
-                        <div class="wrapper-navigation col-lg-8">
-                            <ul class="box-navigation">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
-                            </ul>
-                        </div>
-                        <div class="wrapper-search-bag col-lg-2">
-                            <div class="search">
-
-                            </div>
-                            <div class="bag">
+            <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <!-- Бренд и переключатель, который вызывает меню на мобильных устройствах -->
+                    <div class="navbar-header">
+                        <!-- Кнопка с полосочками, которая открывает меню на мобильных устройствах -->
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Бренд или логотип фирмы (обычно содержит ссылку на главную страницу) -->
+                        <a href="#" class="navbar-brand">
+                            <img src="images/logo-Adavi-Beauty.png" alt="Adavi Beauty" width="170" height="56">
+                        </a>
+                    </div>
+                    <!-- Содержимое меню (коллекция навигационных ссылок, формы и др.) -->
+                    <div id="navbarCollapse" class="collapse navbar-collapse">
+                        <ul class="box-navigation nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                        <div class="input-group navbar-right">
+                            <form role="search" class="search-header navbar-form">
+                                <div class="form-group">
+                                    <input type="text" placeholder="" class="search-header-text form-control">
+                                    <button type="button" class="search-header-send btn btn-default form-control">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="bag input-group-btn">
                                 <a href="#" class="header-bag">
                                     <span class="order-count">2</span>
                                 </a>
                             </div>
                         </div>
-                    </nav>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </header>
         <div class="container">
             <div class="owl-carousel owl-theme">
@@ -134,7 +147,7 @@
                     </h2>
                 </div>
                 <div class="row">
-                    <div class="product-item col-lg-3 col-md-3 col-sm-4 col-xs-8">
+                    <div class="product-item col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
                         <div class="product-1">
                             <div class="photo-product">
                                 <a href="#">
@@ -150,7 +163,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="product-item col-lg-offset-1 col-lg-3 col-md-3 col-sm-4 col-xs-8">
+                    <div class="product-item col-lg-offset-1 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="product-2">
                             <div class="photo-product">
                                 <a href="#">
@@ -166,7 +179,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="product-item col-lg-offset-1 col-lg-3 col-md-3 col-sm-4 col-xs-8">
+                    <div class="product-item col-lg-offset-1 col-lg-3 hidden-md hidden-sm col-xs-12">
                         <div class="product-1">
                             <div class="photo-product">
                                 <a href="#">

@@ -5,57 +5,49 @@ header {
     width: 100%;
 }
 
-.page-head {
-    position: fixed;
-    z-index: 10;
-    background-color: rgba(256, 256, 256, 0.8);
+
+/*-------------------------------переписуємо стилі для bootstrap------------------------------------*/
+.navbar-default {
+    background: rgba(256, 256, 256, 0.7);
+    border: none;
 }
 
-.header-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    margin-top: 25px;
-}
 
+.navbar-brand {
+    padding: 0;
+    height: 56px;
+}
 
 .box-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    margin: 0 0 0 6%;
 }
 
-.box-navigation>li {
-
-}
-
-.box-navigation>li a {
-    padding: 20px 40px;
+.box-navigation a{
+    font-size: 13px;
     text-transform: uppercase;
-    text-decoration: none;
     color: #383a3a;
 }
 
 .box-navigation >li a:active {
     border-bottom: 1px solid #ff887b;
-    color: #ff887b;
+    color: #ff887b !important;
 }
 
-
-.wrapper-search-bag {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.search-header .search-header-text { /*---відміняємо стилі у форми---*/
+    background-color: transparent;
+    color: #383a3a;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
 }
 
-.search {
-    background: url("bg-image/header-search.png") no-repeat center;
-    width: 15px;
-    height: 15px;
+.search-header .search-header-send { /*---відміняємо стилі у форми---*/
+    background-color: transparent;
+    color: #383a3a;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-left: -40px;
 }
 
 .bag {

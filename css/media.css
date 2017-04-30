@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1170px) {
+
+    .subscribe-name {
+        font-size: 70px;
+    }
+    .for-form-bg {
+        margin: 0 10%;
+        margin-top: 10vh;
+    }
+
+    .image-items {
+        padding: 20px 0;
+    }
+    .wrapper-image-items-2 { /* --- для позиціонування блоків блогу --- */
+        position: relative;
+    }
+
+    .wrapper-image-items-2 >.image-items {
+        position: relative;
+        top: 0;
+    }
+
+    .wrapper-image-items-3 { /* --- для позиціонування блоків блогу --- */
+        position: static;
+    }
+
+    .wrapper-image-items-3 >.image-items {
+        position: relative;
+        top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .search-header {
+        display: none;
+    }
+
+    .for-form-bg {
+        height: auto;
+        padding: 10px;
+        margin: 0 10%;
+        margin-top: 10vh;
+    }
+    .for-form-bg-stone {
+        display: none;
+    }
+    .subscribe-name {
+        font-size: 60px;
+        padding-right: 20%;
+    }
+    .title-blog-item {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .head-slider-name {
+        font-size: 60px;
+    }
+
+    .for-form-bg {
+        height: auto;
+        margin: 0;
+        margin-top: 10vh;
+    }
+    .for-form-bg-stone {
+        display: none;
+    }
+    .for-form-bg-position {
+        display: none;
+        overflow: hidden;
+    }
+    .subscribe-name {
+        font-size: 40px;
+    }
+    .image-article {
+        left: 100px;
+        padding: 10px;
+    }
+    .title-blog-item {
+        font-size: 16px;
+    }
+    .desc-blog-item {
+        color: #b3b8b8;
+        font-size: 12px;
+    }
+
+}
