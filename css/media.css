@@ -1,5 +1,12 @@
 @media only screen and (max-width: 1170px) {
 
+    .box-navigation {
+        margin: 0;
+    }
+
+    #scrollup{
+        margin: 19.53vh 0;
+    }
     .subscribe-name {
         font-size: 70px;
     }
@@ -62,6 +69,21 @@
         font-size: 60px;
     }
 
+    .product-1, .product-2 {
+        background: url("bg-image/frame-for-product-for-320.png") no-repeat top;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*height: 277px;*/
+        width: 234px;
+    }
+
+
+    .photo-product img {
+        margin: 40px 0 0 0;
+    }
+
+
     .for-form-bg {
         height: auto;
         margin: 0;
@@ -77,9 +99,14 @@
     .subscribe-name {
         font-size: 40px;
     }
+
+    .image-items {
+        margin-left: 20px;
+    }
     .image-article {
         left: 100px;
         padding: 10px;
+        width: 50vw;
     }
     .title-blog-item {
         font-size: 16px;
@@ -87,6 +114,10 @@
     .desc-blog-item {
         color: #b3b8b8;
         font-size: 12px;
+    }
+
+    .bg-line-footer {
+        width: 100%;
     }
 
     .box-for-foot-content {
