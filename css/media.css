@@ -40,6 +40,11 @@
 
 @media only screen and (max-width: 992px) {
 
+    .input-group {
+        float: right;
+        top: 15px;
+    }
+
     .search-header {
         display: none;
     }
